@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — DigiGaia</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <div class="brand"><span class="brand-dot"></span>DigiGaia</div>
+    <div class="nav-links">
+      <a href="index.html" data-page="index.html">Home</a>
+      <a href="services.html" data-page="services.html">Services</a>
+      <a href="pricing.html" data-page="pricing.html">Pricing</a>
+      <a href="about.html" data-page="about.html">About</a>
+      <a href="contact.html" class="nav-cta">Get a quote</a>
+    </div>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="wrap">
+    <h1 class="reveal in-view">Let's build your <span class="grad-text">website</span></h1>
+    <p class="reveal in-view">Send us a few details and we'll come back with a quote — usually within a day.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <form class="contact-form reveal" id="contactForm">
+      <div class="form-field">
+        <label for="name">Business name</label>
+        <input id="name" type="text" placeholder="Your business name" required>
+      </div>
+      <div class="form-field">
+        <label for="phone">Phone or WhatsApp number</label>
+        <input id="phone" type="tel" placeholder="082 000 0000" required>
+      </div>
+      <div class="form-field">
+        <label for="package">Package</label>
+        <select id="package">
+          <option>Starter — R1,500</option>
+          <option>Growth — from R3,500</option>
+          <option>Custom — let's talk</option>
+        </select>
+      </div>
+      <div class="form-field">
+        <label for="message">What does your business need?</label>
+        <textarea id="message" placeholder="e.g. We're a hair salon with no website, just an Instagram page."></textarea>
+      </div>
+      <button type="submit" class="submit-btn">Send enquiry</button>
+      <p class="form-note" id="formMsg">Demo form — working layout, not yet wired to send. On the live site this emails or WhatsApps you directly.</p>
+    </form>
+
+    <div class="btn-row" style="margin-top:28px;">
+      <a href="https://wa.me/27000000000" class="btn btn-secondary">💬 Or message us on WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<footer>© 2026 DigiGaia · South Africa</footer>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
